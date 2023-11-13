@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "carousel"
 include(":app")
- 
+include(":mylibrary")

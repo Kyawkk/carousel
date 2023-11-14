@@ -76,5 +76,5 @@ dependencies {
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
     implementation(project(":mylibrary"))
-    //implementation ("com.github.Kyawkk:carousel:v1.0.4")
+    implementation ("com.github.Kyawkk:carousel:v1.0.5")
 }

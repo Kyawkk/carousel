@@ -1,11 +1,6 @@
-/*object Carousel {
-    val people = listOf("Hla Hla", "Mya Mya")
-}*/
+@file:OptIn(ExperimentalFoundationApi::class, ExperimentalMaterial3Api::class)
 
-@file:OptIn(
-    ExperimentalFoundationApi::class, ExperimentalMaterial3Api::class,
-    ExperimentalFoundationApi::class, ExperimentalFoundationApi::class
-)
+package com.kyawzinlinn.mylibrary
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.tween

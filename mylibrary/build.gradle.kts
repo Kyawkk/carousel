@@ -42,13 +42,22 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.compose.ui:ui-util:1.5.4")
     implementation(libs.core.ktx)
-    implementation(libs.appcompat)
-    implementation(libs.material)
+    implementation(libs.lifecycle.runtime.ktx)
+    implementation(libs.activity.compose)
+    implementation(platform(libs.compose.bom))
+    implementation(libs.ui)
+    implementation(libs.ui.graphics)
+    implementation(libs.ui.tooling.preview)
+    implementation(libs.material3)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(platform(libs.compose.bom))
+    androidTestImplementation(libs.ui.test.junit4)
+    debugImplementation(libs.ui.tooling)
+    debugImplementation(libs.ui.test.manifest)
 }
 
 publishing {
@@ -56,7 +65,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.Kyawkk"
             artifactId = "carousel"
-            version ="1.0.4"
+            version ="1.0.5"
 
             afterEvaluate {
                 from(components["release"])

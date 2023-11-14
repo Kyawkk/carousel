@@ -58,7 +58,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.Kyawkk"
             artifactId = "carousel"
-            version ="1.0.7"
+            version ="1.0.8"
 
             afterEvaluate {
                 from(components["release"])

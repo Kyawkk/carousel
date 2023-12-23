@@ -49,7 +49,7 @@ val defaultPageSpacing = 16.dp
 val defaultItemShape = RoundedCornerShape(16.dp)
 val defaultDuration = 3000L
 
-/*@Composable
+@Composable
 fun DotIndicators(
     modifier: Modifier = Modifier,
     pagerState: PagerState,
@@ -78,7 +78,7 @@ fun DotIndicators(
             )
         }
     }
-}*/
+}
 
 @Composable
 fun CarouselSlider(

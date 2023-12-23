@@ -44,7 +44,6 @@ android {
 dependencies {
     implementation("androidx.compose.ui:ui-util:1.5.4")
     implementation(libs.core.ktx)
-    implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.activity.compose)
     implementation(platform(libs.compose.bom))
     implementation(libs.ui)

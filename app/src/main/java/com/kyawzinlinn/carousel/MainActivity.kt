@@ -12,7 +12,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.kyawzinlinn.carousel.ui.theme.CarouselTheme
 import com.kyawzinlinn.mylibrary.CarouselSlider
-import com.kyawzinlinn.mylibrary.Hello
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
